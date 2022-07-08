@@ -1,7 +1,8 @@
-import java.util.Scanner;
+// Perfect Number is a number whose sum of factors (excluding the number itself)
+//  is equal to that number
+// example 6 => factors sum : 1+2+3 =6  6 == 6 so perfect number
 
-// Perfect Number is a number whose factors sum is equal to that number except that number.
-// example 6 => 1+2+3 =6 
+import java.util.Scanner;
 
 public class Perfect_number {
 
