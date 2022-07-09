@@ -4,7 +4,7 @@ public class Sum_of_digits_recursion {
 	
 	int sum(int num)
 	{
-		if(num ==0)
+		if(num == 0)
 			 return 0;
 		else
 			return ((num % 10) + sum(num/10));
